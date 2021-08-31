@@ -1,3 +1,3 @@
 class Comment < ApplicationRecord
-    validates :body, presence: true
+    validates :body, :post_id, :user_id, presence: true
 end
